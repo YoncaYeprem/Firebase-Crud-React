@@ -1,0 +1,100 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContainer {
+  width: 450px;
+  height: 450px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalHeader {
+  text-align: center;
+}
+
+.modalContainer .modalBody {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  justify-content: center;
+  padding: 0 5px;
+}
+.modalInputContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+
+.modalInputContainer label {
+  margin: 0 10px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.modalInputContainer input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #c0c1c1;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.modalContainer .modalFooter {
+  flex: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modalContainer .modalFooter .btn-cancel {
+  display: flex;
+  background-color: #da2d36;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .modalFooter .btn-addNew {
+  display: flex;
+  background-color: #46b879;
+  border: none;
+  color: white;
+  padding: 12px 50px;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modalContainer .modalFooter button:hover {
+  margin-top: -10px;
+}
